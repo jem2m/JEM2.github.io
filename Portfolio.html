@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JEM² | Virtual Assistant & Writer</title>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    background:#f4f6fb;
+    color:#1a1a1a;
+    line-height:1.6;
+  }
+  header{
+    background:#0f172a;
+    color:white;
+    padding:50px 20px 70px;
+    text-align:center;
+  }
+  .profile-pic{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+    margin-bottom:15px;
+  }
+  header h1{
+    font-size:48px;
+    letter-spacing:2px;
+  }
+  header h1 span{
+    color:#38bdf8;
+  }
+  header p{
+    max-width:650px;
+    margin:15px auto 0;
+    font-size:18px;
+    color:#cbd5e1;
+  }
+  .btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#38bdf8;
+    color:#0f172a;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+  }
+  .container{
+    max-width:900px;
+    margin:-30px auto 40px;
+    padding:0 20px;
+  }
+  .card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    margin-bottom:25px;
+  }
+  h2{
+    margin-bottom:15px;
+    color:#0f172a;
+    border-left:5px solid #38bdf8;
+    padding-left:12px;
+  }
+  .services{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:15px;
+  }
+  .service{
+    background:#f8fafc;
+    border:1px solid #e2e8f0;
+    padding:20px;
+    border-radius:12px;
+  }
+  .service h3{
+    margin-bottom:8px;
+  }
+  .price{
+    color:#0284c7;
+    font-weight:bold;
+    margin-top:10px;
+  }
+  .project{
+    background:#f8fafc;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:15px;
+    border-left:4px solid #0f172a;
+  }
+  .project h3{
+    margin-bottom:5px;
+  }
+  .tag{
+    display:inline-block;
+    background:#e0f2fe;
+    color:#0369a1;
+    padding:3px 10px;
+    border-radius:20px;
+    font-size:13px;
+    margin-bottom:10px;
+  }
+  ul{
+    padding-left:20px;
+  }
+  .tools span{
+    display:inline-block;
+    background:#0f172a;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    margin:5px 5px 0 0;
+    font-size:14px;
+  }
+  .contact-box{
+    text-align:center;
+  }
+  .contact-box p{
+    font-size:17px;
+    margin-bottom:8px;
+  }
+  footer{
+    text-align:center;
+    padding:30px 20px;
+    background:#0f172a;
+    color:white;
+  }
+  footer a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:bold;
+  }
+  @media(max-width:650px){
+    .services{
+      grid-template-columns:1fr;
+    }
+    header h1{
+      font-size:36px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="profile.jpg" alt="JEM² Profile" class="profile-pic">
+  <h1>JEM<span>²</span></h1>
+  <p>Virtual Assistant & Writer | I handle your emails, documents, research & content so you can focus on growing your business</p>
+  <a class="btn" href="https://wa.me/256793043977">Hire Me on WhatsApp</a>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>Hello, I'm <b>JEM²</b> — a Virtual Assistant and Writer based in Uganda, working with clients worldwide.</p>
+    <br>
+    <p>I help busy business owners, students, and creators stay organized and professional. I am fast, reliable, and I communicate clearly. If you give me a task, I deliver it on time and done well.</p>
+    <br>
+    <p>I specialize in professional writing, data entry, email management, research, and clean Word & Excel documents.</p>
+  </div>
+
+  <div class="card">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Writing</h3>
+        <p>Blog articles, business letters, CVs, cover letters, product descriptions.</p>
+        <p class="price">From $10 / 500 words</p>
+      </div>
+      <div class="service">
+        <h3>Virtual Assistant</h3>
+        <p>Email management, scheduling, data entry, research, file organization.</p>
+        <p class="price">From $15 / day</p>
+      </div>
+      <div class="service">
+        <h3>Documents & Excel</h3>
+        <p>Clean Word docs, Excel reports, tables, charts, PowerPoint slides.</p>
+        <p class="price">From $10 / document</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Sample Projects</h2>
+
+    <div class="project">
+      <span class="tag">Virtual Assistant</span>
+      <h3>1. Business Email & Schedule Management</h3>
+      <p><b>Client:</b> Small Online Shop Owner</p>
+      <ul>
+        <li>Organized 120+ emails into Orders, Customers, Suppliers</li>
+        <li>Replied to 25 customer inquiries with professional templates</li>
+        <li>Created weekly delivery schedule in Google Sheets</li>
+      </ul>
+      <p><b>Result:</b> Owner saved 3 hours every day and no customer message was missed.</p>
+    </div>
+
+    <div class="project">
+      <span class="tag">Writing</span>
+      <h3>2. Blog Article Writing</h3>
+      <p><b>Title:</b> 5 Simple Ways Small Businesses Can Grow on Instagram</p>
+      <ul>
+        <li>Researched topic and wrote 800-word article</li>
+        <li>Used clear headings and call-to-action</li>
+        <li>Edited for grammar and readability</li>
+      </ul>
+      <p><b>Result:</b> Article ready to post, easy for readers to understand.</p>
+    </div>
+
+    <div class="project">
+      <span class="tag">Excel</span>
+      <h3>3. Excel Sales Report</h3>
+      <p><b>Client:</b> Local Boutique</p>
+      <ul>
+        <li>Entered 200 sales records into Excel</li>
+        <li>Used SUM, AVERAGE, and IF formulas</li>
+        <li>Created Bar Chart showing weekly sales</li>
+      </ul>
+      <p><b>Result:</b> Owner could see best sellers in 1 page.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Tools I Use</h2>
+    <div class="tools">
+      <span>MS Word</span>
+      <span>MS Excel</span>
+      <span>PowerPoint</span>
+      <span>Google Docs</span>
+      <span>Google Sheets</span>
+      <span>Canva</span>
+      <span>Gmail</span>
+      <span>Zoom</span>
+    </div>
+  </div>
+
+  <div class="card contact-box">
+    <h2 style="text-align:left;">Contact Me</h2>
+    <p><b>WhatsApp:</b> 0793043977</p>
+    <p><b>Email:</b> ezrajanuary2026@gmail.com</p>
+    <p><b>Location:</b> Kampala, Uganda | Available Worldwide</p>
+  </div>
+
+</div>
+
+<footer>
+  <h2 style="border:none; color:white;">Let's Work Together</h2>
+  <p>Send me a message and let's get your work done.</p>
+  <br>
+  <a href="https://wa.me/256793043977">WhatsApp Me</a> | 
+  <a href="mailto:ezrajanuary2026@gmail.com">Email Me</a>
+  <p style="margin-top:15px; font-size:13px; color:#94a3b8;">© 2026 JEM² - Kampala, Uganda</p>
+</footer>
+
+</body>
+</html>
